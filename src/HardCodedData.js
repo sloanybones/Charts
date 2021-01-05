@@ -1,7 +1,6 @@
-{
-  "data": {
-    "status": "success",
-    "data": [
+ export const ALL_DATA = [
+
+
       {
         "name": "Bolling Air Force Base",
         "cityname": "Washington",
@@ -31521,61 +31520,11 @@
         "destinationscount": 0,
         "airport_website": null,
         "wikipedia_page": "http://en.wikipedia.org/wiki/Copper_Center_Airport"
-      }
-    ],
-    "message": "Retrieved airports",
-    "count": 1970
-  },
-  "status": 200,
-  "statusText": "OK",
-  "headers": {
-    "access-control-allow-credentials": "true",
-    "access-control-allow-headers": "Origin, X-Requested-With, Content-Type, Accept",
-    "access-control-allow-origin": "*",
-    "content-length": "753168",
-    "content-type": "application/json; charset=utf-8",
-    "date": "Tue, 05 Jan 2021 00:02:58 GMT",
-    "etag": "W/\"b7e10-2l6QBdoxoSZv/qtWsW0n9uoDn00\"",
-    "server": "RapidAPI-1.2.6",
-    "via": "1.1 d1151317ba32afe0e6370fd69fed222e.cloudfront.net (CloudFront)",
-    "x-amz-apigw-id": "YpfruFnBoAMFpvA=",
-    "x-amz-cf-id": "nyi-9XSIbNg4hY0X-5mSbbxbRymRhkwNqkMJf5OQqOn4WqzY20wGRw==",
-    "x-amz-cf-pop": "HIO50-C1",
-    "x-amzn-remapped-connection": "close",
-    "x-amzn-remapped-date": "Tue, 05 Jan 2021 00:02:57 GMT",
-    "x-amzn-requestid": "323d0ffc-dffd-41d9-8a30-d12e5166f2ec",
-    "x-amzn-trace-id": "Root=1-5ff3acb1-79f0ba3e0a571bf4799f5955;Sampled=0",
-    "x-cache": "Miss from cloudfront",
-    "x-powered-by": "Express",
-    "x-rapidapi-region": "AWS - us-west-2",
-    "x-rapidapi-version": "1.2.6",
-    "x-ratelimit-requests-limit": "1000",
-    "x-ratelimit-requests-remaining": "996",
-    "x-ratelimit-requests-reset": "2678131"
-  },
-  "config": {
-    "url": "https://geo-services-by-mvpc-com.p.rapidapi.com/airports",
-    "method": "get",
-    "headers": {
-      "Accept": "application/json, text/plain, */*",
-      "x-rapidapi-key": "6a59ef7b7bmsh4694d3ed233c793p1a25f0jsn57f6003aeac4",
-      "x-rapidapi-host": "geo-services-by-mvpc-com.p.rapidapi.com"
-    },
-    "params": {
-      "language": "en",
-      "countrycode": "US"
-    },
-    "transformRequest": [
-      null
-    ],
-    "transformResponse": [
-      null
-    ],
-    "timeout": 0,
-    "xsrfCookieName": "XSRF-TOKEN",
-    "xsrfHeaderName": "X-XSRF-TOKEN",
-    "maxContentLength": -1,
-    "maxBodyLength": -1
-  },
-  "request": {}
-}
+      },
+   
+
+    ]
+
+   
+
+ 
