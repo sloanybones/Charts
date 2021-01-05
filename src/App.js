@@ -1,10 +1,10 @@
-import DisneyChart from "./DisneyChart";
+import AirportChart from "./AirportChart";
 import './App.css';
 
 function App() {
   return (
     <div>
-   <DisneyChart />
+   <AirportChart />
    </div>
   );
 }
